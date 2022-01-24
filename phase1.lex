@@ -32,6 +32,20 @@ NOT             not
 TRUE            true
 FALSE           false
 RETURN          return
+SUB             -
+ADD             +
+MULT            \*
+DIV             \/
+MOD             %
+EQ              ==
+NEQ             <>
+LT              <
+GT              >
+LTE             <=
+GTE             >=
+
+IDENT           [A-Za-z]*
+NUMBER          [0-9]*
 
 %%
 
